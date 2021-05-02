@@ -1,8 +1,8 @@
 import os
 from datetime import timedelta
 
-EMAIL_DOMAIN = "example.com"
-SLACK_TOKEN = "yourtoken"
+EMAIL_DOMAIN = "ekaterina.kryukova@epfl.ch"
+SLACK_TOKEN = "xoxb-2046293016928-2007760046679-sDmnN4i3VMUt1BDfI5ydJRJ0"
 SLACK_CHANNEL = "#general"
 SHELVE_FILE = "meetings.shelve"
 ATTENDANCE_TIME_LIMIT = 60 * 15
@@ -11,7 +11,7 @@ GOOGLE_HANGOUT_URL = "https://hangouts.google.com/hangouts/_/"
 S3_BUCKET = None
 S3_PREFIX = None
 FREQUENCY = timedelta(days=14)
-TIMEZONE = "US/Central"
+TIMEZONE = "Europe/Moscow"
 ATTENDANCE_TIME = {"hour": 11, "minute": 28, "weekday": 0}
 MEETING_TIME = {"hour": 14, "minute": 29, "weekday": 0}
 
